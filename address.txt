@@ -1,0 +1,17 @@
+address of smart contract on privnet
+0x0154d85d1308577863db522f67ec17d649900f10
+
+build smartContracts/SCL-token/main.py
+import contract smartContracts/SCL-token/main.avm 071010 05 true true true
+rm -rf /root/.neopython/Chains/privnet*
+
+AK2nJJpJr6o664CWJKi1QRXjqeic2zRp8y
+WIF key export: KxDgvEKzgSBPPfuVfw67oPQBSjidEiqTHURKSDL1R7yGaGYAeYnr
+
+AYaKnTBsP6qANSm3f88zNVVA4tmfHrss1y
+WIF key export: L2dybtx3yzmU13JU4GKbQCG4jcew7GvJ7vhZGSYx1jkkZWBxUe6n
+
+testinvoke  setToken ['AYaKnTBsP6qANSm3f88zNVVA4tmfHrss1y'] ['29'] 
+
+
+

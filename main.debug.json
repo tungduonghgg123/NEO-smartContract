@@ -1,0 +1,1321 @@
+{
+    "avm": {
+        "name": "main",
+        "hash": "f71beaab93970b770d8b12aec4234bbc"
+    },
+    "compiler": {
+        "name": "neo-boa",
+        "version": "0.5.3"
+    },
+    "files": [
+        {
+            "id": 1,
+            "url": "/neo-python/smartContracts/SCL-token/main.py"
+        },
+        {
+            "id": 2,
+            "url": "/neo-python/smartContracts/SCL-token/nex/nep5.py"
+        },
+        {
+            "id": 3,
+            "url": "/usr/local/lib/python3.6/dist-packages/boa/builtins.py"
+        }
+    ],
+    "map": [
+        {
+            "start": 19,
+            "end": 44,
+            "file": 1,
+            "method": "Main",
+            "line": 13,
+            "file_line_no": 25
+        },
+        {
+            "start": 45,
+            "end": 74,
+            "file": 1,
+            "method": "Main",
+            "line": 9,
+            "file_line_no": 21
+        },
+        {
+            "start": 75,
+            "end": 166,
+            "file": 1,
+            "method": "Main",
+            "line": 10,
+            "file_line_no": 22
+        },
+        {
+            "start": 167,
+            "end": 196,
+            "file": 1,
+            "method": "Main",
+            "line": 4,
+            "file_line_no": 16
+        },
+        {
+            "start": 197,
+            "end": 205,
+            "file": 1,
+            "method": "Main",
+            "line": 9,
+            "file_line_no": 21
+        },
+        {
+            "start": 206,
+            "end": 240,
+            "file": 1,
+            "method": "Main",
+            "line": 10,
+            "file_line_no": 22
+        },
+        {
+            "start": 241,
+            "end": 275,
+            "file": 1,
+            "method": "Main",
+            "line": 12,
+            "file_line_no": 24
+        },
+        {
+            "start": 276,
+            "end": 281,
+            "file": 1,
+            "method": "Main",
+            "line": 15,
+            "file_line_no": 27
+        },
+        {
+            "start": 282,
+            "end": 307,
+            "file": 1,
+            "method": "Main",
+            "line": 16,
+            "file_line_no": 28
+        },
+        {
+            "start": 308,
+            "end": 312,
+            "file": 1,
+            "method": "Main",
+            "line": 17,
+            "file_line_no": 29
+        },
+        {
+            "start": 313,
+            "end": 339,
+            "file": 1,
+            "method": "Main",
+            "line": 18,
+            "file_line_no": 30
+        },
+        {
+            "start": 340,
+            "end": 344,
+            "file": 1,
+            "method": "Main",
+            "line": 19,
+            "file_line_no": 31
+        },
+        {
+            "start": 345,
+            "end": 353,
+            "file": 1,
+            "method": "Main",
+            "line": 21,
+            "file_line_no": 33
+        },
+        {
+            "start": 354,
+            "end": 401,
+            "file": 1,
+            "method": "Main",
+            "line": 23,
+            "file_line_no": 35
+        },
+        {
+            "start": 402,
+            "end": 411,
+            "file": 1,
+            "method": "Main",
+            "line": 24,
+            "file_line_no": 36
+        },
+        {
+            "start": 412,
+            "end": 434,
+            "file": 1,
+            "method": "Main",
+            "line": 25,
+            "file_line_no": 37
+        },
+        {
+            "start": 435,
+            "end": 450,
+            "file": 1,
+            "method": "Main",
+            "line": 27,
+            "file_line_no": 39
+        },
+        {
+            "start": 451,
+            "end": 468,
+            "file": 1,
+            "method": "Main",
+            "line": 28,
+            "file_line_no": 40
+        },
+        {
+            "start": 469,
+            "end": 486,
+            "file": 1,
+            "method": "Main",
+            "line": 29,
+            "file_line_no": 41
+        },
+        {
+            "start": 487,
+            "end": 504,
+            "file": 1,
+            "method": "Main",
+            "line": 30,
+            "file_line_no": 42
+        },
+        {
+            "start": 505,
+            "end": 522,
+            "file": 1,
+            "method": "Main",
+            "line": 31,
+            "file_line_no": 43
+        },
+        {
+            "start": 523,
+            "end": 540,
+            "file": 1,
+            "method": "Main",
+            "line": 32,
+            "file_line_no": 44
+        },
+        {
+            "start": 541,
+            "end": 555,
+            "file": 1,
+            "method": "Main",
+            "line": 33,
+            "file_line_no": 45
+        },
+        {
+            "start": 556,
+            "end": 562,
+            "file": 1,
+            "method": "Main",
+            "line": 34,
+            "file_line_no": 46
+        },
+        {
+            "start": 563,
+            "end": 584,
+            "file": 1,
+            "method": "Main",
+            "line": 36,
+            "file_line_no": 48
+        },
+        {
+            "start": 585,
+            "end": 601,
+            "file": 1,
+            "method": "minusToken",
+            "line": 38,
+            "file_line_no": 122
+        },
+        {
+            "start": 602,
+            "end": 631,
+            "file": 1,
+            "method": "minusToken",
+            "line": 9,
+            "file_line_no": 93
+        },
+        {
+            "start": 632,
+            "end": 664,
+            "file": 1,
+            "method": "minusToken",
+            "line": 2,
+            "file_line_no": 86
+        },
+        {
+            "start": 665,
+            "end": 712,
+            "file": 1,
+            "method": "minusToken",
+            "line": 3,
+            "file_line_no": 87
+        },
+        {
+            "start": 713,
+            "end": 717,
+            "file": 1,
+            "method": "minusToken",
+            "line": 4,
+            "file_line_no": 88
+        },
+        {
+            "start": 718,
+            "end": 725,
+            "file": 1,
+            "method": "minusToken",
+            "line": 5,
+            "file_line_no": 89
+        },
+        {
+            "start": 726,
+            "end": 730,
+            "file": 1,
+            "method": "minusToken",
+            "line": 6,
+            "file_line_no": 90
+        },
+        {
+            "start": 731,
+            "end": 760,
+            "file": 1,
+            "method": "minusToken",
+            "line": 7,
+            "file_line_no": 91
+        },
+        {
+            "start": 761,
+            "end": 772,
+            "file": 1,
+            "method": "minusToken",
+            "line": 8,
+            "file_line_no": 92
+        },
+        {
+            "start": 773,
+            "end": 780,
+            "file": 1,
+            "method": "minusToken",
+            "line": 9,
+            "file_line_no": 93
+        },
+        {
+            "start": 781,
+            "end": 811,
+            "file": 1,
+            "method": "minusToken",
+            "line": 10,
+            "file_line_no": 94
+        },
+        {
+            "start": 812,
+            "end": 815,
+            "file": 1,
+            "method": "minusToken",
+            "line": 11,
+            "file_line_no": 95
+        },
+        {
+            "start": 816,
+            "end": 829,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 12,
+            "file_line_no": 84
+        },
+        {
+            "start": 830,
+            "end": 855,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 13,
+            "file_line_no": 85
+        },
+        {
+            "start": 856,
+            "end": 885,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 9,
+            "file_line_no": 81
+        },
+        {
+            "start": 886,
+            "end": 918,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 2,
+            "file_line_no": 74
+        },
+        {
+            "start": 919,
+            "end": 979,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 3,
+            "file_line_no": 75
+        },
+        {
+            "start": 980,
+            "end": 984,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 4,
+            "file_line_no": 76
+        },
+        {
+            "start": 985,
+            "end": 992,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 5,
+            "file_line_no": 77
+        },
+        {
+            "start": 993,
+            "end": 997,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 6,
+            "file_line_no": 78
+        },
+        {
+            "start": 998,
+            "end": 1027,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 7,
+            "file_line_no": 79
+        },
+        {
+            "start": 1028,
+            "end": 1039,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 8,
+            "file_line_no": 80
+        },
+        {
+            "start": 1040,
+            "end": 1070,
+            "file": 1,
+            "method": "bonusToken",
+            "line": 9,
+            "file_line_no": 81
+        },
+        {
+            "start": 1071,
+            "end": 1084,
+            "file": 1,
+            "method": "setToken",
+            "line": 10,
+            "file_line_no": 69
+        },
+        {
+            "start": 1085,
+            "end": 1110,
+            "file": 1,
+            "method": "setToken",
+            "line": 13,
+            "file_line_no": 72
+        },
+        {
+            "start": 1111,
+            "end": 1140,
+            "file": 1,
+            "method": "setToken",
+            "line": 9,
+            "file_line_no": 68
+        },
+        {
+            "start": 1141,
+            "end": 1163,
+            "file": 1,
+            "method": "setToken",
+            "line": 2,
+            "file_line_no": 61
+        },
+        {
+            "start": 1164,
+            "end": 1196,
+            "file": 1,
+            "method": "setToken",
+            "line": 3,
+            "file_line_no": 62
+        },
+        {
+            "start": 1197,
+            "end": 1249,
+            "file": 1,
+            "method": "setToken",
+            "line": 4,
+            "file_line_no": 63
+        },
+        {
+            "start": 1250,
+            "end": 1254,
+            "file": 1,
+            "method": "setToken",
+            "line": 5,
+            "file_line_no": 64
+        },
+        {
+            "start": 1255,
+            "end": 1262,
+            "file": 1,
+            "method": "setToken",
+            "line": 6,
+            "file_line_no": 65
+        },
+        {
+            "start": 1263,
+            "end": 1267,
+            "file": 1,
+            "method": "setToken",
+            "line": 7,
+            "file_line_no": 66
+        },
+        {
+            "start": 1268,
+            "end": 1296,
+            "file": 1,
+            "method": "setToken",
+            "line": 8,
+            "file_line_no": 67
+        },
+        {
+            "start": 1297,
+            "end": 1303,
+            "file": 1,
+            "method": "getCurrentTime",
+            "line": 10,
+            "file_line_no": 61
+        },
+        {
+            "start": 1304,
+            "end": 1335,
+            "file": 1,
+            "method": "getCurrentTime",
+            "line": 2,
+            "file_line_no": 53
+        },
+        {
+            "start": 1336,
+            "end": 1370,
+            "file": 1,
+            "method": "getCurrentTime",
+            "line": 3,
+            "file_line_no": 54
+        },
+        {
+            "start": 1371,
+            "end": 1404,
+            "file": 1,
+            "method": "getCurrentTime",
+            "line": 4,
+            "file_line_no": 55
+        },
+        {
+            "start": 1405,
+            "end": 1428,
+            "file": 2,
+            "method": "do_allowance",
+            "line": 5,
+            "file_line_no": 171
+        },
+        {
+            "start": 1429,
+            "end": 1494,
+            "file": 2,
+            "method": "do_approve",
+            "line": 3,
+            "file_line_no": 140
+        },
+        {
+            "start": 1495,
+            "end": 1499,
+            "file": 2,
+            "method": "do_approve",
+            "line": 4,
+            "file_line_no": 141
+        },
+        {
+            "start": 1500,
+            "end": 1532,
+            "file": 2,
+            "method": "do_approve",
+            "line": 6,
+            "file_line_no": 143
+        },
+        {
+            "start": 1533,
+            "end": 1537,
+            "file": 2,
+            "method": "do_approve",
+            "line": 7,
+            "file_line_no": 144
+        },
+        {
+            "start": 1538,
+            "end": 1545,
+            "file": 2,
+            "method": "do_approve",
+            "line": 9,
+            "file_line_no": 146
+        },
+        {
+            "start": 1546,
+            "end": 1550,
+            "file": 2,
+            "method": "do_approve",
+            "line": 10,
+            "file_line_no": 147
+        },
+        {
+            "start": 1551,
+            "end": 1582,
+            "file": 2,
+            "method": "do_approve",
+            "line": 14,
+            "file_line_no": 151
+        },
+        {
+            "start": 1583,
+            "end": 1594,
+            "file": 2,
+            "method": "do_approve",
+            "line": 16,
+            "file_line_no": 153
+        },
+        {
+            "start": 1595,
+            "end": 1602,
+            "file": 2,
+            "method": "do_approve",
+            "line": 18,
+            "file_line_no": 155
+        },
+        {
+            "start": 1603,
+            "end": 1634,
+            "file": 2,
+            "method": "do_approve",
+            "line": 19,
+            "file_line_no": 156
+        },
+        {
+            "start": 1635,
+            "end": 1664,
+            "file": 2,
+            "method": "do_approve",
+            "line": 21,
+            "file_line_no": 158
+        },
+        {
+            "start": 1665,
+            "end": 1705,
+            "file": 2,
+            "method": "do_approve",
+            "line": 23,
+            "file_line_no": 160
+        },
+        {
+            "start": 1706,
+            "end": 1710,
+            "file": 2,
+            "method": "do_approve",
+            "line": 25,
+            "file_line_no": 162
+        },
+        {
+            "start": 1711,
+            "end": 1738,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 27,
+            "file_line_no": 117
+        },
+        {
+            "start": 1739,
+            "end": 1746,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 3,
+            "file_line_no": 93
+        },
+        {
+            "start": 1747,
+            "end": 1751,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 4,
+            "file_line_no": 94
+        },
+        {
+            "start": 1752,
+            "end": 1763,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 6,
+            "file_line_no": 96
+        },
+        {
+            "start": 1764,
+            "end": 1773,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 8,
+            "file_line_no": 98
+        },
+        {
+            "start": 1774,
+            "end": 1778,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 9,
+            "file_line_no": 99
+        },
+        {
+            "start": 1779,
+            "end": 1808,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 11,
+            "file_line_no": 101
+        },
+        {
+            "start": 1809,
+            "end": 1818,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 13,
+            "file_line_no": 103
+        },
+        {
+            "start": 1819,
+            "end": 1863,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 14,
+            "file_line_no": 104
+        },
+        {
+            "start": 1864,
+            "end": 1868,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 15,
+            "file_line_no": 105
+        },
+        {
+            "start": 1869,
+            "end": 1898,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 17,
+            "file_line_no": 107
+        },
+        {
+            "start": 1899,
+            "end": 1908,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 19,
+            "file_line_no": 109
+        },
+        {
+            "start": 1909,
+            "end": 1961,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 20,
+            "file_line_no": 110
+        },
+        {
+            "start": 1962,
+            "end": 1966,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 21,
+            "file_line_no": 111
+        },
+        {
+            "start": 1967,
+            "end": 1996,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 23,
+            "file_line_no": 113
+        },
+        {
+            "start": 1997,
+            "end": 2008,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 25,
+            "file_line_no": 115
+        },
+        {
+            "start": 2009,
+            "end": 2020,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 27,
+            "file_line_no": 117
+        },
+        {
+            "start": 2021,
+            "end": 2049,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 29,
+            "file_line_no": 119
+        },
+        {
+            "start": 2050,
+            "end": 2078,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 30,
+            "file_line_no": 120
+        },
+        {
+            "start": 2079,
+            "end": 2113,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 32,
+            "file_line_no": 122
+        },
+        {
+            "start": 2114,
+            "end": 2125,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 34,
+            "file_line_no": 124
+        },
+        {
+            "start": 2126,
+            "end": 2133,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 36,
+            "file_line_no": 126
+        },
+        {
+            "start": 2134,
+            "end": 2171,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 37,
+            "file_line_no": 127
+        },
+        {
+            "start": 2172,
+            "end": 2203,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 38,
+            "file_line_no": 128
+        },
+        {
+            "start": 2204,
+            "end": 2256,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 40,
+            "file_line_no": 130
+        },
+        {
+            "start": 2257,
+            "end": 2286,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 41,
+            "file_line_no": 131
+        },
+        {
+            "start": 2287,
+            "end": 2328,
+            "file": 2,
+            "method": "do_transfer_from",
+            "line": 43,
+            "file_line_no": 133
+        },
+        {
+            "start": 2329,
+            "end": 2356,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 45,
+            "file_line_no": 93
+        },
+        {
+            "start": 2357,
+            "end": 2364,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 3,
+            "file_line_no": 51
+        },
+        {
+            "start": 2365,
+            "end": 2369,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 4,
+            "file_line_no": 52
+        },
+        {
+            "start": 2370,
+            "end": 2379,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 6,
+            "file_line_no": 54
+        },
+        {
+            "start": 2380,
+            "end": 2384,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 7,
+            "file_line_no": 55
+        },
+        {
+            "start": 2385,
+            "end": 2417,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 9,
+            "file_line_no": 57
+        },
+        {
+            "start": 2418,
+            "end": 2447,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 11,
+            "file_line_no": 59
+        },
+        {
+            "start": 2448,
+            "end": 2457,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 13,
+            "file_line_no": 61
+        },
+        {
+            "start": 2458,
+            "end": 2493,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 14,
+            "file_line_no": 62
+        },
+        {
+            "start": 2494,
+            "end": 2498,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 15,
+            "file_line_no": 63
+        },
+        {
+            "start": 2499,
+            "end": 2508,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 17,
+            "file_line_no": 65
+        },
+        {
+            "start": 2509,
+            "end": 2543,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 18,
+            "file_line_no": 66
+        },
+        {
+            "start": 2544,
+            "end": 2548,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 19,
+            "file_line_no": 67
+        },
+        {
+            "start": 2549,
+            "end": 2558,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 21,
+            "file_line_no": 69
+        },
+        {
+            "start": 2559,
+            "end": 2590,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 22,
+            "file_line_no": 70
+        },
+        {
+            "start": 2591,
+            "end": 2602,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 25,
+            "file_line_no": 73
+        },
+        {
+            "start": 2603,
+            "end": 2632,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 26,
+            "file_line_no": 74
+        },
+        {
+            "start": 2633,
+            "end": 2662,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 28,
+            "file_line_no": 76
+        },
+        {
+            "start": 2663,
+            "end": 2674,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 30,
+            "file_line_no": 78
+        },
+        {
+            "start": 2675,
+            "end": 2703,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 32,
+            "file_line_no": 80
+        },
+        {
+            "start": 2704,
+            "end": 2745,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 34,
+            "file_line_no": 82
+        },
+        {
+            "start": 2746,
+            "end": 2750,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 36,
+            "file_line_no": 84
+        },
+        {
+            "start": 2751,
+            "end": 2801,
+            "file": 2,
+            "method": "do_transfer",
+            "line": 38,
+            "file_line_no": 86
+        },
+        {
+            "start": 2802,
+            "end": 2824,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 40,
+            "file_line_no": 52
+        },
+        {
+            "start": 2825,
+            "end": 2839,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 5,
+            "file_line_no": 17
+        },
+        {
+            "start": 2840,
+            "end": 2849,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 7,
+            "file_line_no": 19
+        },
+        {
+            "start": 2850,
+            "end": 2855,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 9,
+            "file_line_no": 21
+        },
+        {
+            "start": 2856,
+            "end": 2867,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 3,
+            "file_line_no": 15
+        },
+        {
+            "start": 2868,
+            "end": 2874,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 4,
+            "file_line_no": 16
+        },
+        {
+            "start": 2875,
+            "end": 2890,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 6,
+            "file_line_no": 18
+        },
+        {
+            "start": 2891,
+            "end": 2897,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 7,
+            "file_line_no": 19
+        },
+        {
+            "start": 2898,
+            "end": 2911,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 9,
+            "file_line_no": 21
+        },
+        {
+            "start": 2912,
+            "end": 2918,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 10,
+            "file_line_no": 22
+        },
+        {
+            "start": 2919,
+            "end": 2935,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 14,
+            "file_line_no": 26
+        },
+        {
+            "start": 2936,
+            "end": 2944,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 15,
+            "file_line_no": 27
+        },
+        {
+            "start": 2945,
+            "end": 2979,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 16,
+            "file_line_no": 28
+        },
+        {
+            "start": 2980,
+            "end": 2995,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 18,
+            "file_line_no": 30
+        },
+        {
+            "start": 2996,
+            "end": 3004,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 19,
+            "file_line_no": 31
+        },
+        {
+            "start": 3005,
+            "end": 3053,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 20,
+            "file_line_no": 32
+        },
+        {
+            "start": 3054,
+            "end": 3073,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 22,
+            "file_line_no": 34
+        },
+        {
+            "start": 3074,
+            "end": 3082,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 23,
+            "file_line_no": 35
+        },
+        {
+            "start": 3083,
+            "end": 3131,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 24,
+            "file_line_no": 36
+        },
+        {
+            "start": 3132,
+            "end": 3146,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 26,
+            "file_line_no": 38
+        },
+        {
+            "start": 3147,
+            "end": 3155,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 27,
+            "file_line_no": 39
+        },
+        {
+            "start": 3156,
+            "end": 3204,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 28,
+            "file_line_no": 40
+        },
+        {
+            "start": 3205,
+            "end": 3221,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 30,
+            "file_line_no": 42
+        },
+        {
+            "start": 3222,
+            "end": 3230,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 31,
+            "file_line_no": 43
+        },
+        {
+            "start": 3231,
+            "end": 3252,
+            "file": 2,
+            "method": "handle_nep51",
+            "line": 32,
+            "file_line_no": 44
+        },
+        {
+            "start": 3253,
+            "end": 3269,
+            "file": 3,
+            "method": "range",
+            "line": 34,
+            "file_line_no": 107
+        },
+        {
+            "start": 3270,
+            "end": 3281,
+            "file": 3,
+            "method": "range",
+            "line": 9,
+            "file_line_no": 82
+        },
+        {
+            "start": 3282,
+            "end": 3290,
+            "file": 3,
+            "method": "range",
+            "line": 11,
+            "file_line_no": 84
+        },
+        {
+            "start": 3291,
+            "end": 3296,
+            "file": 3,
+            "method": "range",
+            "line": 13,
+            "file_line_no": 86
+        },
+        {
+            "start": 3297,
+            "end": 3304,
+            "file": 3,
+            "method": "range",
+            "line": 15,
+            "file_line_no": 88
+        },
+        {
+            "start": 3305,
+            "end": 3316,
+            "file": 3,
+            "method": "range",
+            "line": 17,
+            "file_line_no": 90
+        },
+        {
+            "start": 3317,
+            "end": 3328,
+            "file": 3,
+            "method": "range",
+            "line": 18,
+            "file_line_no": 91
+        },
+        {
+            "start": 3329,
+            "end": 3339,
+            "file": 3,
+            "method": "range",
+            "line": 19,
+            "file_line_no": 92
+        },
+        {
+            "start": 3340,
+            "end": 3349,
+            "file": 3,
+            "method": "range",
+            "line": 20,
+            "file_line_no": 93
+        },
+        {
+            "start": 3350,
+            "end": 3367,
+            "file": 3,
+            "method": "range",
+            "line": 21,
+            "file_line_no": 94
+        },
+        {
+            "start": 3368,
+            "end": 3373,
+            "file": 3,
+            "line": 23
+        }
+    ],
+    "breakpoints": []
+}
