@@ -10,11 +10,9 @@ ctx = GetContext()
 NEP5_METHODS = ['name', 'symbol', 'decimals', 'totalSupply', 'balanceOf', 'transfer', 'transferFrom', 'approve', 'allowance']
 creditPoints = {"":""}
 initToken = {"",""}
-class proposal:
-    def __init__(self, addr, title, content, token)
-    
 
-def Main(operation, args1, args2):
+
+def Main(operation, args):
     
 
     trigger = GetTrigger()
@@ -38,14 +36,14 @@ def Main(operation, args1, args2):
 
         for op in NEP5_METHODS:
             if operation == op:
-                return handle_nep51(ctx, operation, args1)
+                return handle_nep51(ctx, operation, args)
 
         if operation == 'setToken':
-            return setToken(args1[0], args2[0])
+            return setToken(args[0], args[1])
         elif operation == 'bonusToken':
-            return bonusToken(args1[0], args2[0])
+            return bonusToken(args[0], args[1])
         elif operation == 'minusToken':
-            return minusToken(args1[0], args2[0])
+            return minusToken(args[0], args[1])
         elif operation == 'getTime':
             return getCurrentTime()
 
@@ -99,4 +97,3 @@ def minusToken(addr, amount):
         return true
     return false
 
-def updateCreditPoint
