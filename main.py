@@ -1,9 +1,11 @@
 from nex.nep5 import *
+from playground.proposal2 import * 
 from boa.interop.Neo.Runtime import GetTrigger, CheckWitness
 from boa.interop.Neo.TriggerType import Application, Verification
 from boa.interop.Neo.Storage import *
 from boa.interop.Neo.Blockchain import *
 from boa.interop.Neo.Header import *
+from boa.builtins import list
 
 
 ctx = GetContext()
@@ -46,7 +48,18 @@ def Main(operation, args):
             return minusToken(args[0], args[1])
         elif operation == 'getTime':
             return getCurrentTime()
-
+        elif operation == "setProposal":
+            return setProposal(args[0], args[1],args[2], args[3],args[4])
+        elif operation == "getProposal":
+            return getProposal(args[0])
+        elif operation == "put":
+            return put(args[0],args[1])
+        elif operation == "get":
+            return get(args[0])
+        # elif operation == 'setProposal':
+        #     return setProposal(args[0],args[1],args[2],args[3])
+        # elif operation == 'getProposal':
+        #     return getProposal()
         return 'unknown operation'
 
     return False
@@ -96,4 +109,12 @@ def minusToken(addr, amount):
         Put(ctx, addr,new_amount )
         return true
     return false
+def put(name, old):
+    Put(ctx, "ahoho", old)
+    return Put(ctx, name, old)
+def get(name):
+    return Get(ctx, name)
+
+
+    
 
