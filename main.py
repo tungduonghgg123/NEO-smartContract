@@ -50,6 +50,8 @@ def Main(operation, args):
             return getCurrentTime()
 
         elif operation == "setProposal":
+            # update:
+            minusToken(args[1],args[4] )
             return setProposal(args[0], args[1],args[2], args[3],args[4])
 
         elif operation == "getProposal":
@@ -78,7 +80,6 @@ def getCurrentTime():
     return timestamp
 
 # use this function when the semester starts, reset Token amount of every address
-# haven't decentralized yet
 def setToken(addr, amount):
     if not CheckWitness(TOKEN_OWNER):
         print("Must be contract owner to set token")

@@ -34,11 +34,7 @@ def setProposal(id, addr, title, content, token):
 
     return True
 
-def isExped(id):
-    print("ahihi")
-    if getCurrentTime() - Get(ctx, id + "4") > 0:
-        return True
-    return False
+
 def upVote(id, voter):
     if isExped(id):
         return False
@@ -56,13 +52,6 @@ def downVote(id, voter):
     listDownVote = Get(ctx, id + '5') + voter
     Put(ctx, id + '6',listDownVote)
     return True
-
-def isVoted(id, voter):
-    if voter in Get(ctx, id + '5'):  
-        return True
-    if voter in Get(ctx, id + '6'):
-        return True
-    return False
 def getProposal(id):
     proposer = Get(ctx, id + "0")
     title = Get(ctx, id + "1")
@@ -73,3 +62,17 @@ def getProposal(id):
     listUpVote = Get(ctx,id + "6" )
     return proposer + "_" + title + "_" + content + "_" + token + "_" + expTime + "_" + listDownVote + "_" + listUpVote
 
+
+# not done
+# ---------------------------
+def isVoted(id, voter):
+    if voter in Get(ctx, id + '5'):  
+        return True
+    if voter in Get(ctx, id + '6'):
+        return True
+    return False
+def isExped(id):
+    print("ahihi")
+    if getCurrentTime() - Get(ctx, id + "4") > 0:
+        return True
+    return False
