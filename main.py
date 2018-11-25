@@ -1,5 +1,5 @@
 from nex.nep5 import *
-from playground.proposal2 import * 
+from playground.proposal import * 
 from boa.interop.Neo.Runtime import GetTrigger, CheckWitness
 from boa.interop.Neo.TriggerType import Application, Verification
 from boa.interop.Neo.Storage import *
@@ -9,10 +9,7 @@ from boa.builtins import list
 
 
 ctx = GetContext()
-NEP5_METHODS = ['name', 'symbol', 'decimals', 'totalSupply', 'balanceOf', 'transfer', 'transferFrom', 'approve', 'allowance']
-creditPoints = {"":""}
-initToken = {"",""}
-
+NEP5_METHODS = ['name', 'symbol', 'decimals', 'balanceOf']
 
 def Main(operation, args):
     
@@ -42,24 +39,34 @@ def Main(operation, args):
 
         if operation == 'setToken':
             return setToken(args[0], args[1])
+
         elif operation == 'bonusToken':
             return bonusToken(args[0], args[1])
+
         elif operation == 'minusToken':
             return minusToken(args[0], args[1])
+
         elif operation == 'getTime':
             return getCurrentTime()
+
         elif operation == "setProposal":
             return setProposal(args[0], args[1],args[2], args[3],args[4])
+
         elif operation == "getProposal":
             return getProposal(args[0])
-        elif operation == "put":
-            return put(args[0],args[1])
-        elif operation == "get":
-            return get(args[0])
-        # elif operation == 'setProposal':
-        #     return setProposal(args[0],args[1],args[2],args[3])
-        # elif operation == 'getProposal':
-        #     return getProposal()
+
+        elif operation == "upVote":
+            return upVote(args[0],args[1])
+
+        elif operation == "downVote":
+            return downVote(args[0],args[1])
+
+        elif operation == "isExped":
+            return isExped(args[0])
+
+        elif operation == "isVoted":
+            return isVoted(args[0], args[1])
+
         return 'unknown operation'
 
     return False
@@ -70,10 +77,9 @@ def getCurrentTime():
     timestamp = GetTimestamp(header)
     return timestamp
 
-#use this function when the semester starts, reset Token amount of every address
+# use this function when the semester starts, reset Token amount of every address
 # haven't decentralized yet
 def setToken(addr, amount):
-    print("ahihi")
     if not CheckWitness(TOKEN_OWNER):
         print("Must be contract owner to set token")
         return False
